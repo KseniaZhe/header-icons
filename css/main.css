@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+font-family: "Merriweather", serif;
+font-weight: bold;
+font-size: 2rem;
+background-color: #d05c2e;
+font-family: "Merriweather", serif;
+color: #fff;
+text-align: center;
+padding: 0.5em 0;
+margin: 0;
+}
+
+/* Typefaces: Merriweather
+Line height: 1.5
+Margins: 0, 0 0 .7rem, .3rem
+Paddings: 0, .5em 0 0, .4rem 0 */
+
+nav a {
+font-family: "Merriweather", serif;
+font-size: 1.125rem;
+background-color: #d05c2e;
+font-family: "Merriweather", serif;
+color: #fff;
+text-decoration: none;
+padding: 0.4rem;
+border-style: solid;
+border-color: #a63f38;
+border-width: 1px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+header img {
+  width: 40px;
+  margin-top: 1em;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-h {
+  float: left;
+  width: 33.33%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.nav-l {
+  float: left;
+  width: 33.33%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.nav-c {
+  float: left;
+  width: 33.34%;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
